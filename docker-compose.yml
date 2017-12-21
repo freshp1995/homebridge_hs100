@@ -1,0 +1,13 @@
+version: '2'
+services: 
+  homebridge:
+    image: oznu/homebridge:raspberry-pi
+    restart: always
+    network_mode: host
+    environment:
+      - TZ=Europe/Berlin
+      - PGID=1000
+      - PUID=1000
+    volumes:
+      - ./config:/homebridge
+      

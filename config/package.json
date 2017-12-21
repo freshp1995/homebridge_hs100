@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "homebridge-hs100": "*"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "platforms": [
+        {
+            "platform": "Hs100",
+            "name": "TPLink",
+            "deviceTypes": [], 
+            "macAddresses": [], 
+            "pollingInterval": 10, 
+            "switchModels": [
+                "HS200"
+            ], 
+            "addCustomCharacteristics": true, 
+            "inUseThreshold": 0, 
+            "timeout": 5 
+        }
+    ]
+}
